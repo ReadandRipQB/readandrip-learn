@@ -1,0 +1,32 @@
+title: Read & Rip Learn
+tagline: See it before the snap.
+description: >-
+  Football IQ, taught on a whiteboard. Coverages, fronts, gaps and pre-snap reads
+  explained plainly for players, parents and coaches, from the creator of the Read & Rip app.
+author: Zach Trainor
+url: "https://readandripqb.github.io"
+baseurl: "/readandrip-learn"
+app_url: "https://readripqb.com"
+lang: en-US
+
+permalink: /:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
+  - CLAUDE.md
+  - .gitignore

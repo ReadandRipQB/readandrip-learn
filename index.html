@@ -1,0 +1,19 @@
+---
+layout: default
+title: Football IQ, taught on a whiteboard
+---
+<section class="hero">
+  <p class="eyebrow">Read &amp; Rip Learn</p>
+  <h1>See it before the snap.</h1>
+  <p class="lede">Coverages, fronts, gaps and pre-snap reads, explained plainly. Written by Zach Trainor, who played quarterback at the D1, D2 and D3 levels and built the Read &amp; Rip app.</p>
+</section>
+
+<section class="post-list" aria-label="Articles">
+  {% for post in site.posts %}
+  <a class="card" href="{{ post.url | relative_url }}">
+    <p class="eyebrow">{{ post.category | default: 'Football IQ' }} &middot; {{ post.date | date: '%b %-d, %Y' }}</p>
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.description }}</p>
+  </a>
+  {% endfor %}
+</section>
