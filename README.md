@@ -1,4 +1,4 @@
-# Read & Rip Learn
+# Read & Rip Football IQ
 
 Football IQ articles from Read & Rip, published at https://readandripqb.github.io/readandrip-learn/
 

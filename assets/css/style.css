@@ -40,7 +40,7 @@ a:hover { color: var(--white); }
   letter-spacing: .5px; text-transform: uppercase; text-decoration: none;
 }
 .btn:hover { background: var(--white); color: #031009; }
-.btn-small { padding: 9px 14px; font-size: 13px; }
+.btn-small { padding: 9px 14px; font-size: 13px; white-space: nowrap; }
 
 /* Type */
 h1, h2, h3 { font-family: Oswald, Impact, sans-serif; line-height: 1.15; color: var(--white); }
@@ -84,7 +84,9 @@ h3 { font-size: 21px; margin: 28px 0 8px; }
 
 @media (max-width: 480px) {
   body { font-size: 17px; }
-  .wordmark { font-size: 19px; }
-  .btn-small { padding: 8px 10px; font-size: 12px; }
+  .header-row { gap: 8px; }
+  .wordmark { font-size: 17px; }
+  .btn-small { padding: 8px 9px; font-size: 11px; }
+  .wm-tab { font-size: 10px; padding: 2px 4px; margin-left: 2px; }
   .post-body table { font-size: 15px; }
 }

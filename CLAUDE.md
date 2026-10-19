@@ -1,6 +1,6 @@
 # readandrip-learn — rules for Claude
 
-This repository is the Read & Rip Learn blog: a static Jekyll site published with GitHub Pages. It exists so SEO articles can be published without touching anything else.
+This repository is the Read & Rip Football IQ blog: a static Jekyll site published with GitHub Pages. It exists so SEO articles can be published without touching anything else.
 
 ## Hard rules
 
