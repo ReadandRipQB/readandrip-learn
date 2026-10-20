@@ -7,6 +7,7 @@ author: Zach Trainor
 url: "https://learn.readandrip.com"
 baseurl: ""
 app_url: "https://readripqb.com"
+home_url: "https://readandrip.com"
 lang: en-US
 
 permalink: /:title/
