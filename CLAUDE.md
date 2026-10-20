@@ -11,7 +11,7 @@ This repository is the Read & Rip Football IQ blog: a static Jekyll site publish
 ## How the site works
 
 - Articles live in `_posts/` as `YYYY-MM-DD-slug.md` with front matter: `title` (under 60 characters), `description` (under 155 characters), `category`, `author`.
-- The URL is the slug: `https://readandripqb.github.io/readandrip-learn/<slug>/`.
+- The URL is the slug: `https://learn.readandrip.com/<slug>/`.
 - Layouts are in `_layouts/`, styles in `assets/css/style.css`. Plugins (all GitHub Pages–supported): jekyll-seo-tag, jekyll-sitemap, jekyll-feed.
 
 ## Writing rules

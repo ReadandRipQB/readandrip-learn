@@ -1,6 +1,6 @@
 # Read & Rip Football IQ
 
-Football IQ articles from Read & Rip, published at https://readandripqb.github.io/readandrip-learn/
+Football IQ articles from Read & Rip, published at https://learn.readandrip.com/
 
 ## How publishing works
 

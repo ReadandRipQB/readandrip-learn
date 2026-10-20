@@ -4,8 +4,8 @@ description: >-
   Football IQ, taught on a whiteboard. Coverages, fronts, gaps and pre-snap reads
   explained plainly for players, parents and coaches, from the creator of the Read & Rip app.
 author: Zach Trainor
-url: "https://readandripqb.github.io"
-baseurl: "/readandrip-learn"
+url: "https://learn.readandrip.com"
+baseurl: ""
 app_url: "https://readripqb.com"
 lang: en-US
 
