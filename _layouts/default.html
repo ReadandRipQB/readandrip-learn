@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Read & Rip Football IQ home">
+        <span class="wm-read">READ &amp;</span> <span class="wm-rip">RIP</span> <span class="wm-tab">FOOTBALL IQ</span>
+      </a>
+      <a class="btn btn-small" href="{{ site.app_url }}">Try the app free</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="tagline">Read it. Rip it.</p>
+      <p>Football IQ for players, coaches and parents. Start free in any browser or on Google Play at <a href="{{ site.app_url }}">readripqb.com</a>.</p>
+      <p>More from Read &amp; Rip at <a href="{{ site.home_url }}">readandrip.com</a>.</p>
+      <p class="small">&copy; {{ 'now' | date: '%Y' }} Read &amp; Rip</p>
+    </div>
+  </footer>
+</body>
+</html>

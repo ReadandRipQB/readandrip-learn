@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post">
+  <p class="eyebrow">{{ page.category | default: 'Football IQ' }}</p>
+  <h1>{{ page.title }}</h1>
+  <p class="meta">By {{ page.author | default: site.author }} &middot; {{ page.date | date: '%B %-d, %Y' }}</p>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <aside class="cta">
+    <h2>Train this until it's automatic</h2>
+    <p>Read &amp; Rip teaches football from the ground up, then has you call the coverage, the blitz and the box count on every snap in Season Mode. Start free in any browser or on Google Play. Nothing to install.</p>
+    <a class="btn" href="{{ site.app_url }}">Try Read &amp; Rip free</a>
+  </aside>
+
+  <p class="back"><a href="{{ '/' | relative_url }}">&larr; All articles</a></p>
+</article>
