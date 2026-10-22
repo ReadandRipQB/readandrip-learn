@@ -78,6 +78,10 @@ h3 { font-size: 21px; margin: 28px 0 8px; }
 .cta h2 { margin-top: 0; }
 .back { margin-top: 32px; }
 
+.more { margin-top: 40px; display: grid; gap: 12px; }
+.more h2 { margin: 0 0 4px; }
+.more .card h3 { margin: 6px 0; font-size: 20px; }
+
 /* Footer */
 .site-footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: 15px; }
 .tagline { font: italic 700 22px/1 Oswald, sans-serif; color: var(--white); }

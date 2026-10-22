@@ -9,6 +9,14 @@ baseurl: ""
 app_url: "https://readripqb.com"
 home_url: "https://readandrip.com"
 lang: en-US
+logo: /assets/apple-touch-icon.png
+social:
+  name: Read & Rip
+  links:
+    - https://readandrip.com
+    - https://readripqb.com
+twitter:
+  card: summary_large_image
 
 permalink: /:title/
 markdown: kramdown
@@ -26,8 +34,13 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-image.jpg
 
 exclude:
   - README.md
   - CLAUDE.md
   - .gitignore
+  - TOPIC_MAP.md

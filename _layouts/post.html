@@ -16,5 +16,19 @@ layout: default
     <a class="btn" href="{{ site.app_url }}">Try Read &amp; Rip free</a>
   </aside>
 
+  {% assign more = site.posts | where_exp: "p", "p.url != page.url" %}
+  {% if more.size > 0 %}
+  <nav class="more" aria-label="More articles">
+    <h2>Keep reading</h2>
+    {% for p in more limit: 3 %}
+    <a class="card" href="{{ p.url | relative_url }}">
+      <p class="eyebrow">{{ p.category | default: 'Football IQ' }}</p>
+      <h3>{{ p.title }}</h3>
+      <p>{{ p.description }}</p>
+    </a>
+    {% endfor %}
+  </nav>
+  {% endif %}
+
   <p class="back"><a href="{{ '/' | relative_url }}">&larr; All articles</a></p>
 </article>
