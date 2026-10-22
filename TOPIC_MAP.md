@@ -1,6 +1,6 @@
 # Read & Rip Football IQ — topic map
 
-The plan for what learn.readandrip.com writes, in order. The Monday task takes the next **Planned** row unless the week's football gives a better-timed topic from this map. When an article's pull request opens, mark its row **PR open**; when Zach merges it, mark it **Live**. Zach can reorder, add or strike rows at any time — his edits win.
+The plan for what learn.readandrip.com writes, in order. The Monday task takes the first row that isn't written yet, unless the week's football gives a better-timed topic from this map. A row counts as **Live** when its slug is in `_posts/` on main, and as **PR open** when an open pull request adds it; the Status column below is only a snapshot, so the weekly pull requests don't edit this file. Zach can reorder, add rows, or set a row's Status to **Skip** at any time — his edits win.
 
 How it works: Google ranks sites that cover a subject completely. Each **pillar** is a long overview page that links to every article in its group, and every article links back up to its pillar and across to 1–2 neighbors. Nothing here repeats a published article.
 
@@ -50,7 +50,7 @@ Search notes come from reading live Google results on 2026-10-22 (no paid keywor
 
 - One target phrase per article, used in the title, the first two sentences, one H2 and the slug. Natural English only — no stuffing.
 - Title under 60 characters, description under 155, both written to make someone click.
-- Link up to its pillar and across to 1–2 neighbors that are already **Live** (never link to an unpublished slug). When a new article goes live, add a link to it from its pillar and from one older related article in the same pull request.
+- Link up to its pillar and across to 1–2 neighbors that are already **Live** (never link to an unpublished slug). In the same pull request, add one link to the new article from its pillar or from one older related Live article.
 - One whiteboard diagram where it helps (guards and tackles as circles, center as a box with an X, everyone else as letters).
 - Accurate football only. If unsure of a scheme detail or a league rule, leave it out.
 - App only: never mention QB training, lessons or training prices. Any web browser or Google Play; never App Store, iOS or iPhone.
