@@ -1,0 +1,197 @@
+---
+layout: default
+title: "Football Coverage Quiz: Can You Name the Coverage?"
+description: "A free 10-question football coverage quiz. Look at the whiteboard, name the coverage: Cover 0, 1, 2, 3, 4 and 6, plus single-high and two-high shells."
+permalink: /coverage-quiz/
+---
+<section class="hero quiz-hero">
+  <p class="eyebrow">Free quiz &middot; 10 questions</p>
+  <h1>Can you name the coverage?</h1>
+  <p class="lede">Ten whiteboards. Each one shows a defense. Name what you're looking at, then see why. Built for players, parents and coaches. No sign-up.</p>
+</section>
+
+<section class="quiz" id="quiz" aria-live="polite">
+  <noscript><p>This quiz needs JavaScript turned on. The answer key for every coverage is written out below.</p></noscript>
+</section>
+
+<section class="post-body quiz-guide">
+  <h2>The coverages in this quiz</h2>
+  <p>Every coverage answers one question first: how many defenders are playing deep, and what are the rest doing? Count the deep players and check whether the underneath defenders are watching a receiver or a spot on the field.</p>
+  <h3>Cover 0</h3>
+  <p>No deep safety. Everyone in coverage is in man, and the defense sends extra rushers. The ball has to come out fast.</p>
+  <h3>Cover 1</h3>
+  <p>One deep safety in the middle of the field and man coverage underneath.</p>
+  <h3>Cover 2</h3>
+  <p>Two deep safeties, each with half the field. Five defenders underneath play zones.</p>
+  <h3>Cover 3</h3>
+  <p>Three deep defenders, each with a third of the field, usually the two corners and a safety. Four defenders underneath play zones.</p>
+  <h3>Cover 4 (Quarters)</h3>
+  <p>Four deep defenders, each with a quarter of the field: both corners and both safeties. Three defenders underneath.</p>
+  <h3>Cover 6</h3>
+  <p>Quarters to one side and Cover 2 to the other. Two deep quarter players on one half, one deep half player on the other, with the corner on the half side sitting in the flat.</p>
+  <h3>Single-high and two-high</h3>
+  <p>Before the snap, look at the safeties. One safety deep in the middle is a single-high shell, which usually means Cover 1 or Cover 3. Two safeties deep is a two-high shell, which usually means Cover 2, Cover 4 or Cover 6. Defenses can rotate after the snap, so the shell is where the read starts, not where it ends.</p>
+  <p>New to this? Start with <a href="{{ '/what-is-a-gap-in-football/' | relative_url }}">What is a gap in football?</a></p>
+  <h2>How to read the whiteboards</h2>
+  <p>The offense is at the bottom. Guards and tackles are circles, the center is the box with an X, and everyone else is a letter. Defenders are letters too: C for corners, F and S for safeties, W, M and N for linebackers and the nickel, E and T for the defensive line. Shaded boxes and ovals are zones. A dashed line means a defender is in man coverage on that player. Arrows are rushers.</p>
+</section>
+
+<script>
+(function () {
+  var LOS = 250;
+  var OFF = { X: [38, LOS], H: [108, LOS + 6], Y: [292, LOS + 6], Z: [362, LOS + 6], Q: [200, LOS + 32], R: [228, LOS + 32] };
+  var DL = [["E", 146, LOS - 22], ["T", 182, LOS - 22], ["T", 218, LOS - 22], ["E", 254, LOS - 22]];
+
+  function D(l, x, y) { return { l: l, x: x, y: y }; }
+
+  var C = {
+    c0: { d: [D("C", 38, 196), D("C", 362, 196), D("N", 108, 198), D("F", 292, 194), D("M", 228, 180)],
+          man: { 0: "X", 1: "Z", 2: "H", 3: "Y", 4: "R" },
+          rush: [D("W", 164, 210), D("S", 272, 210)] },
+    c1: { d: [D("C", 38, 196), D("C", 362, 196), D("N", 108, 196), D("S", 292, 192), D("W", 228, 180), D("M", 200, 160), D("F", 200, 66)],
+          man: { 0: "X", 1: "Z", 2: "H", 3: "Y", 4: "R" },
+          zones: [["r", 112, 34, 176, 64], ["e", 200, 160, 30, 18]] },
+    c2: { d: [D("C", 46, 176), D("W", 124, 168), D("M", 200, 160), D("N", 276, 168), D("C", 354, 176), D("F", 105, 66), D("S", 295, 66)],
+          zones: [["r", 12, 34, 186, 64], ["r", 202, 34, 186, 64], ["e", 46, 176, 32, 20], ["e", 124, 168, 32, 20], ["e", 200, 160, 32, 20], ["e", 276, 168, 32, 20], ["e", 354, 176, 32, 20]] },
+    c3: { d: [D("C", 72, 66), D("F", 200, 62), D("C", 328, 66), D("S", 60, 170), D("W", 152, 164), D("M", 248, 164), D("N", 340, 170)],
+          zones: [["r", 12, 34, 122, 64], ["r", 139, 34, 122, 64], ["r", 266, 34, 122, 64], ["e", 60, 170, 34, 20], ["e", 152, 164, 34, 20], ["e", 248, 164, 34, 20], ["e", 340, 170, 34, 20]] },
+    c4: { d: [D("C", 58, 70), D("F", 152, 66), D("S", 248, 66), D("C", 342, 70), D("W", 124, 164), D("M", 200, 158), D("N", 276, 164)],
+          zones: [["r", 12, 34, 92, 64], ["r", 108, 34, 90, 64], ["r", 202, 34, 90, 64], ["r", 296, 34, 92, 64], ["e", 124, 164, 34, 20], ["e", 200, 158, 34, 20], ["e", 276, 164, 34, 20]] },
+    c6: { d: [D("C", 58, 70), D("S", 152, 66), D("F", 295, 66), D("W", 124, 164), D("M", 200, 158), D("N", 276, 164), D("C", 354, 176)],
+          zones: [["r", 12, 34, 92, 64], ["r", 108, 34, 90, 64], ["r", 202, 34, 186, 64], ["e", 124, 164, 34, 20], ["e", 200, 158, 34, 20], ["e", 276, 164, 34, 20], ["e", 354, 176, 32, 20]] },
+    twoHigh: { d: [D("C", 38, 204), D("C", 362, 204), D("N", 108, 204), D("W", 168, 190), D("M", 232, 190), D("F", 120, 96), D("S", 280, 96)], pre: true },
+    oneHigh: { d: [D("C", 38, 204), D("C", 362, 204), D("N", 108, 204), D("W", 168, 190), D("M", 232, 190), D("S", 292, 182), D("F", 200, 74)], pre: true },
+    zeroPre: { d: [D("C", 38, 230), D("C", 362, 230), D("N", 108, 230), D("F", 292, 228), D("W", 164, 210), D("M", 228, 198), D("S", 272, 210)], pre: true }
+  };
+
+  var Q = [
+    { pic: "c3", q: "Name the coverage.", a: ["Cover 2", "Cover 3", "Cover 4", "Cover 1"], c: 1,
+      why: "Three deep zones, each a third of the field, and four defenders underneath. That's Cover 3." },
+    { pic: "c2", q: "Name the coverage.", a: ["Cover 2", "Cover 6", "Cover 3", "Cover 0"], c: 0,
+      why: "Two deep safeties splitting the field in half, with five underneath zones. That's Cover 2." },
+    { pic: "c1", q: "Name the coverage.", a: ["Cover 3", "Cover 0", "Cover 1", "Cover 4"], c: 2,
+      why: "Dashed lines mean man coverage. One safety stays deep in the middle. Man underneath with one deep safety is Cover 1." },
+    { pic: "c0", q: "Name the coverage.", a: ["Cover 1", "Cover 2", "Cover 4", "Cover 0"], c: 3,
+      why: "Everyone in coverage is in man and nobody is deep, while extra defenders rush. That's Cover 0. There's no help behind anyone." },
+    { pic: "c4", q: "Name the coverage.", a: ["Cover 4", "Cover 3", "Cover 6", "Cover 2"], c: 0,
+      why: "Four deep defenders, both corners and both safeties, each with a quarter of the field. That's Cover 4, also called Quarters." },
+    { pic: "c6", q: "Name the coverage.", a: ["Cover 4", "Cover 2", "Cover 6", "Cover 3"], c: 2,
+      why: "The left half is played like Quarters, two deep quarter players. The right half is played like Cover 2, one deep half player with the corner in the flat. Quarters plus Cover 2 makes Cover 6." },
+    { pic: "twoHigh", q: "Before the snap: what shell is this?", a: ["Single-high", "Two-high", "No safeties deep", "Can't tell"], c: 1,
+      why: "Two safeties sitting deep is a two-high shell. It usually points to Cover 2, Cover 4 or Cover 6, but watch for one safety rotating down at the snap." },
+    { pic: "oneHigh", q: "Before the snap: what shell is this?", a: ["Two-high", "No safeties deep", "Single-high", "Can't tell"], c: 2,
+      why: "One safety deep in the middle, the other walked down near the box. That's a single-high shell, which usually points to Cover 1 or Cover 3." },
+    { pic: "zeroPre", q: "Before the snap: nobody is deep and defenders are crowding the line. What should the quarterback expect?", a: ["A two-high zone", "Pressure, so the ball comes out fast", "Cover 4", "A long-developing play is safe"], c: 1,
+      why: "No deep safety and everybody close to the line usually means Cover 0 pressure. There's no time to hold the ball. Get it to the open man, now." },
+    { pic: "c3", q: "How many deep zones does this coverage have?", a: ["Two", "Four", "One", "Three"], c: 3,
+      why: "Three deep thirds. Counting deep zones is the fastest way to name a coverage: one deep is Cover 1, two is Cover 2, three is Cover 3, four is Cover 4." }
+  ];
+
+  var NS = "http://www.w3.org/2000/svg";
+  function el(tag, attrs, text) {
+    var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text) e.textContent = text;
+    return e;
+  }
+  function letter(svg, l, x, y, color) {
+    svg.appendChild(el("text", { x: x, y: y + 6, "text-anchor": "middle", "font-family": "Oswald, Impact, sans-serif", "font-size": 17, "font-weight": 700, fill: color }, l));
+  }
+  function draw(key) {
+    var cov = C[key];
+    var svg = el("svg", { viewBox: "0 0 400 300", role: "img", "aria-label": "Whiteboard diagram of a defense for this question", class: "board" });
+    svg.appendChild(el("rect", { x: 0, y: 0, width: 400, height: 300, fill: "#0d1c16" }));
+    svg.appendChild(el("line", { x1: 8, y1: LOS - 4, x2: 392, y2: LOS - 4, stroke: "#9db8ac", "stroke-opacity": ".35", "stroke-width": 2, "stroke-dasharray": "4 6" }));
+    (cov.zones || []).forEach(function (z) {
+      var a = { fill: "#35f2a1", "fill-opacity": ".09", stroke: "#35f2a1", "stroke-opacity": ".6", "stroke-width": 1.6, "stroke-dasharray": "6 5" };
+      if (z[0] === "r") { a.x = z[1]; a.y = z[2]; a.width = z[3]; a.height = z[4]; a.rx = 6; svg.appendChild(el("rect", a)); }
+      else { a.cx = z[1]; a.cy = z[2]; a.rx = z[3]; a.ry = z[4]; svg.appendChild(el("ellipse", a)); }
+    });
+    // offense: tackles and guards circles, center box with X, others letters
+    [150, 175, 225, 250].forEach(function (x) { svg.appendChild(el("circle", { cx: x, cy: LOS + 6, r: 9, fill: "none", stroke: "#e8f3ee", "stroke-width": 2.4 })); });
+    svg.appendChild(el("rect", { x: 191, y: LOS - 3, width: 18, height: 18, fill: "none", stroke: "#e8f3ee", "stroke-width": 2.4 }));
+    svg.appendChild(el("path", { d: "M191 " + (LOS - 3) + " l18 18 M209 " + (LOS - 3) + " l-18 18", stroke: "#e8f3ee", "stroke-width": 2.4 }));
+    Object.keys(OFF).forEach(function (k) { letter(svg, k, OFF[k][0], OFF[k][1], "#e8f3ee"); });
+    // man coverage lines
+    var man = cov.man || {};
+    Object.keys(man).forEach(function (i) {
+      var d = cov.d[i], o = OFF[man[i]];
+      svg.appendChild(el("line", { x1: d.x, y1: d.y + 8, x2: o[0], y2: o[1] - 12, stroke: "#35f2a1", "stroke-width": 1.8, "stroke-dasharray": "3 4" }));
+    });
+    // rushers
+    var rushers = DL.map(function (t) { return D(t[0], t[1], t[2]); }).concat(cov.rush || []);
+    rushers.forEach(function (r) {
+      if (cov.rush) {
+        var tx = 200 + (r.x - 200) * 0.25, ty = LOS + 18;
+        svg.appendChild(el("line", { x1: r.x, y1: r.y + 8, x2: tx, y2: ty - 4, stroke: "#9db8ac", "stroke-width": 1.6, "marker-end": "url(#arr)" }));
+      }
+      letter(svg, r.l, r.x, r.y, "#9db8ac");
+    });
+    var defs = el("defs", {});
+    var m = el("marker", { id: "arr", viewBox: "0 0 10 10", refX: 8, refY: 5, markerWidth: 6, markerHeight: 6, orient: "auto-start-reverse" });
+    m.appendChild(el("path", { d: "M0 0 L10 5 L0 10 z", fill: "#9db8ac" }));
+    defs.appendChild(m); svg.insertBefore(defs, svg.firstChild);
+    cov.d.forEach(function (d) { letter(svg, d.l, d.x, d.y, "#ffffff"); });
+    return svg;
+  }
+
+  var root = document.getElementById("quiz");
+  var i = 0, score = 0;
+
+  function render() {
+    root.innerHTML = "";
+    if (i >= Q.length) return finish();
+    var item = Q[i];
+    var head = document.createElement("p"); head.className = "eyebrow"; head.textContent = "Question " + (i + 1) + " of " + Q.length;
+    var bar = document.createElement("div"); bar.className = "quiz-bar"; var fill = document.createElement("span"); fill.style.width = (i / Q.length * 100) + "%"; bar.appendChild(fill);
+    var fig = document.createElement("div"); fig.className = "quiz-board"; fig.appendChild(draw(item.pic));
+    var q = document.createElement("h2"); q.className = "quiz-q"; q.textContent = item.q;
+    var opts = document.createElement("div"); opts.className = "quiz-opts";
+    var why = document.createElement("div"); why.className = "quiz-why"; why.hidden = true;
+    item.a.forEach(function (text, n) {
+      var b = document.createElement("button"); b.type = "button"; b.className = "quiz-opt"; b.textContent = text;
+      b.addEventListener("click", function () {
+        var right = n === item.c; if (right) score++;
+        Array.prototype.forEach.call(opts.children, function (o, k) {
+          o.disabled = true;
+          if (k === item.c) o.classList.add("right");
+          else if (k === n) o.classList.add("wrong");
+        });
+        why.innerHTML = "";
+        var v = document.createElement("p"); v.className = "quiz-verdict"; v.textContent = right ? "Right." : "Not quite.";
+        var t = document.createElement("p"); t.textContent = item.why;
+        var next = document.createElement("button"); next.type = "button"; next.className = "btn"; next.textContent = i + 1 < Q.length ? "Next question" : "See my score";
+        next.addEventListener("click", function () { i++; render(); root.scrollIntoView({ behavior: "smooth", block: "start" }); });
+        why.appendChild(v); why.appendChild(t); why.appendChild(next); why.hidden = false;
+        next.focus({ preventScroll: true });
+      });
+      opts.appendChild(b);
+    });
+    [head, bar, fig, q, opts, why].forEach(function (n) { root.appendChild(n); });
+  }
+
+  function finish() {
+    var msg = score >= 9 ? "You see it before the snap." : score >= 6 ? "Good eyes. A few more reps and these are automatic." : "Every QB starts here. Count the deep players first.";
+    var box = document.createElement("div"); box.className = "quiz-result";
+    box.innerHTML = '<p class="eyebrow">Your score</p><p class="quiz-score">' + score + " / " + Q.length + "</p><p class=\"lede\">" + msg + "</p>";
+    var row = document.createElement("div"); row.className = "quiz-actions";
+    var again = document.createElement("button"); again.type = "button"; again.className = "btn btn-ghost"; again.textContent = "Take it again";
+    again.addEventListener("click", function () { i = 0; score = 0; render(); });
+    var share = document.createElement("button"); share.type = "button"; share.className = "btn btn-ghost"; share.textContent = "Share the quiz";
+    share.addEventListener("click", function () {
+      var url = location.origin + location.pathname, text = "I got " + score + "/" + Q.length + " naming football coverages. Can you beat it?";
+      if (navigator.share) { navigator.share({ title: document.title, text: text, url: url }).catch(function () {}); return; }
+      try { navigator.clipboard.writeText(text + " " + url).then(function () { share.textContent = "Link copied"; }); }
+      catch (e) { share.textContent = url; }
+    });
+    var app = document.createElement("a"); app.className = "btn"; app.href = "{{ site.app_url }}"; app.textContent = "Rep it in Read & Rip";
+    row.appendChild(app); row.appendChild(share); row.appendChild(again);
+    var note = document.createElement("p"); note.className = "small";
+    note.textContent = "Read & Rip has you call the coverage, the blitz and the box count on every snap in Season Mode. Start free in any browser or on Google Play.";
+    box.appendChild(row); box.appendChild(note);
+    root.appendChild(box);
+  }
+
+  render();
+})();
+</script>

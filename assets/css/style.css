@@ -82,6 +82,30 @@ h3 { font-size: 21px; margin: 28px 0 8px; }
 .more h2 { margin: 0 0 4px; }
 .more .card h3 { margin: 6px 0; font-size: 20px; }
 
+/* Quiz */
+.quiz-hero { padding-bottom: 8px; }
+.quiz { padding: 8px 0 32px; scroll-margin-top: 16px; }
+.quiz-bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; margin: 8px 0 16px; }
+.quiz-bar span { display: block; height: 100%; background: var(--green); }
+.quiz-board svg { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 10px; }
+.quiz-q { font-size: 24px; margin: 20px 0 12px; }
+.quiz-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.quiz-opt { padding: 14px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--text); font: 600 17px/1.2 Inter, sans-serif; cursor: pointer; text-align: left; }
+.quiz-opt:hover:not(:disabled) { border-color: var(--green-dim); }
+.quiz-opt:disabled { cursor: default; opacity: .7; }
+.quiz-opt.right { border-color: var(--green); background: #0f3325; opacity: 1; }
+.quiz-opt.wrong { border-color: #e2685b; background: #331311; opacity: 1; }
+.quiz-why { margin-top: 16px; padding: 16px 18px; border-left: 3px solid var(--green); background: var(--panel); border-radius: 0 8px 8px 0; }
+.quiz-why p { margin: 0 0 12px; }
+.quiz-verdict { font: 700 20px/1.2 Oswald, sans-serif; color: var(--white); }
+.quiz-result { padding: 24px; border: 1px solid var(--green-dim); border-radius: 12px; background: var(--panel); }
+.quiz-score { font: italic 700 64px/1 Oswald, sans-serif; color: var(--green); margin: 4px 0 8px; }
+.quiz-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+.btn { border: 0; cursor: pointer; }
+.btn-ghost { background: transparent; color: var(--green); border: 1px solid var(--green-dim); }
+.btn-ghost:hover { background: var(--panel); color: var(--white); }
+.feature { border-color: var(--green-dim); }
+
 /* Footer */
 .site-footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: 15px; }
 .tagline { font: italic 700 22px/1 Oswald, sans-serif; color: var(--white); }
@@ -93,4 +117,6 @@ h3 { font-size: 21px; margin: 28px 0 8px; }
   .btn-small { padding: 8px 9px; font-size: 11px; }
   .wm-tab { font-size: 10px; padding: 2px 4px; margin-left: 2px; }
   .post-body table { font-size: 15px; }
+  .quiz-opts { grid-template-columns: 1fr; }
+  .quiz-q { font-size: 21px; }
 }
