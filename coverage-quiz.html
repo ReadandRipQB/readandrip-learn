@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "Football Coverage Quiz: Can You Name the Coverage?"
-description: "A free 10-question football coverage quiz. Look at the whiteboard, name the coverage: Cover 0, 1, 2, 3, 4 and 6, plus single-high and two-high shells."
+description: "A free football coverage quiz. Look at the whiteboard and name the coverage: Cover 0, Cover 1, Cover 2 or Cover 3. Built for players, parents and coaches."
 permalink: /coverage-quiz/
 ---
 <section class="hero quiz-hero">
-  <p class="eyebrow">Free quiz &middot; 10 questions</p>
+  <p class="eyebrow">Free quiz &middot; 4 questions</p>
   <h1>Can you name the coverage?</h1>
-  <p class="lede">Ten whiteboards. Each one shows a defense. Name what you're looking at, then see why. Built for players, parents and coaches. No sign-up.</p>
+  <p class="lede">Four whiteboards. Each one shows a defense. Name what you're looking at, then see why. Built for players, parents and coaches. No sign-up.</p>
 </section>
 
 <section class="quiz" id="quiz" aria-live="polite">
@@ -24,16 +24,10 @@ permalink: /coverage-quiz/
   <h3>Cover 2</h3>
   <p>Both safeties get a deep half. The corners take the flats, two defenders take the curls, and the Mike runs the deep middle.</p>
   <h3>Cover 3</h3>
-  <p>The free safety and both corners each get a deep third. Underneath, two defenders play curl-flat and two play hook-curl.</p>
-  <h3>Cover 4 (Quarters)</h3>
-  <p>Both corners and both safeties each get a deep quarter of the field, with three defenders underneath.</p>
-  <h3>Cover 6</h3>
-  <p>Quarters to one side and Cover 2 to the other: a corner and safety split the deep half on one side in quarters, the other safety takes the deep half on the other side, and the corner on that side takes the flat.</p>
-  <h3>Single-high and two-high</h3>
-  <p>Before the snap, look at the safeties. One safety deep in the middle is a single-high shell, which usually means Cover 1 or Cover 3. Two safeties deep is a two-high shell, which usually means Cover 2, Cover 4 or Cover 6. Defenses can rotate after the snap, so the shell is where the read starts, not where it ends.</p>
+  <p>The free safety and both corners each get a deep third. Underneath, the nickel and the strong safety play curl-flat, and the Will and Mike play hook-curl.</p>
   <p>New to this? Start with <a href="{{ '/what-is-a-gap-in-football/' | relative_url }}">What is a gap in football?</a></p>
   <h2>How to read the whiteboards</h2>
-  <p>The offense is at the bottom. Guards and tackles are circles, the center is the box with an X, and everyone else is a letter. On defense, C is a corner, FS and SS are the free and strong safety, W, M and S are the Will, Mike and Sam linebackers, and E and T are the defensive line. Arrows show where each defender goes after the snap. A dotted line means a defender is in man coverage on that receiver.</p>
+  <p>The offense is at the bottom. Guards and tackles are circles, the center is the box with an X, and everyone else is a letter. On defense, C is a corner, FS and SS are the free and strong safety, W, M and S are the Will, Mike and Sam linebackers, N is the nickel, and E and T are the defensive line. Arrows show where each defender goes after the snap. A dotted line means a defender is in man coverage on that receiver.</p>
 </section>
 
 <script>
@@ -67,56 +61,20 @@ permalink: /coverage-quiz/
     ],
     c3: [
       d("C", 38, 212, { to: [48, 72], tag: "DEEP 1/3" }), d("FS", 200, 160, { to: [200, 72], tag: "DEEP 1/3" }), d("C", 362, 212, { to: [352, 72], tag: "DEEP 1/3" }),
-      d("S", 108, 206, { to: [84, 178], tag: "CURL-FLAT" }), d("SS", 292, 204, { to: [316, 178], tag: "CURL-FLAT" }),
+      d("N", 108, 206, { to: [84, 178], tag: "CURL-FLAT" }), d("SS", 292, 204, { to: [316, 178], tag: "CURL-FLAT" }),
       d("W", 164, 200, { to: [146, 160], tag: "HOOK-CURL" }), d("M", 236, 200, { to: [254, 160], tag: "HOOK-CURL" })
-    ],
-    c4: [
-      d("C", 38, 212, { to: [50, 76], tag: "DEEP 1/4" }), d("FS", 140, 168, { to: [150, 72], tag: "DEEP 1/4" }),
-      d("SS", 260, 168, { to: [250, 72], tag: "DEEP 1/4" }), d("C", 362, 212, { to: [350, 76], tag: "DEEP 1/4" }),
-      d("W", 156, 200, { to: [92, 194], tag: "CURL-FLAT" }), d("M", 200, 196, { to: [200, 176], tag: "HOOK" }),
-      d("S", 244, 200, { to: [308, 194], tag: "CURL-FLAT" })
-    ],
-    c6: [
-      d("C", 38, 212, { to: [50, 76], tag: "DEEP 1/4" }), d("SS", 140, 168, { to: [150, 72], tag: "DEEP 1/4" }),
-      d("FS", 260, 160, { to: [300, 72], tag: "DEEP 1/2" }), d("C", 360, 222, { to: [360, 198], tag: "FLAT" }),
-      d("W", 156, 200, { to: [92, 194], tag: "CURL-FLAT" }), d("M", 200, 196, { to: [200, 176], tag: "HOOK" }),
-      d("S", 244, 200, { to: [296, 184], tag: "CURL" })
-    ],
-    twoHigh: [
-      d("C", 38, 212), d("C", 362, 212), d("FS", 130, 160), d("SS", 270, 160),
-      d("W", 160, 200), d("M", 200, 196), d("S", 240, 200)
-    ],
-    oneHigh: [
-      d("C", 38, 212), d("C", 362, 212), d("FS", 200, 150), d("SS", 292, 206),
-      d("W", 160, 200), d("M", 200, 196), d("S", 240, 200)
-    ],
-    zeroPre: [
-      d("C", 38, 232), d("C", 362, 232), d("FS", 108, 214), d("SS", 296, 216),
-      d("W", 164, 206), d("M", 222, 194), d("S", 258, 204)
     ]
   };
 
   var Q = [
-    { pic: "c3", q: "Name the coverage.", a: ["Cover 2", "Cover 3", "Cover 4", "Cover 1"], c: 1,
-      why: "The free safety and both corners each run to a deep third. Underneath, two curl-flat defenders and two hook-curl defenders. That's Cover 3." },
-    { pic: "c2", q: "Name the coverage.", a: ["Cover 2", "Cover 6", "Cover 3", "Cover 0"], c: 0,
+    { pic: "c3", q: "Name the coverage.", a: ["Cover 2", "Cover 3", "Cover 0", "Cover 1"], c: 1,
+      why: "The free safety and both corners each run to a deep third. Underneath, the nickel and strong safety play curl-flat and the Will and Mike play hook-curl. That's Cover 3." },
+    { pic: "c2", q: "Name the coverage.", a: ["Cover 2", "Cover 1", "Cover 3", "Cover 0"], c: 0,
       why: "Both safeties get a deep half, the corners sit in the flats, two defenders take the curls and the Mike runs the deep middle. That's Cover 2." },
-    { pic: "c1", q: "Name the coverage.", a: ["Cover 3", "Cover 0", "Cover 1", "Cover 4"], c: 2,
+    { pic: "c1", q: "Name the coverage.", a: ["Cover 3", "Cover 0", "Cover 1", "Cover 2"], c: 2,
       why: "One high safety in the middle, and every other defender in coverage has a dotted line to his man. That's Cover 1." },
-    { pic: "c0", q: "Name the coverage.", a: ["Cover 1", "Cover 2", "Cover 4", "Cover 0"], c: 3,
-      why: "Nobody deep. The corners and safeties are in man, the safeties playing off over the #2 receivers, and extra defenders are coming. That's Cover 0." },
-    { pic: "c4", q: "Name the coverage.", a: ["Cover 4", "Cover 3", "Cover 6", "Cover 2"], c: 0,
-      why: "Both corners and both safeties run to a deep quarter of the field, with three defenders underneath. That's Cover 4, also called Quarters." },
-    { pic: "c6", q: "Name the coverage.", a: ["Cover 4", "Cover 2", "Cover 6", "Cover 3"], c: 2,
-      why: "The left side plays Quarters, a corner and a safety each taking a deep quarter. The right side plays Cover 2, the safety taking the deep half and the corner taking the flat. Quarters plus Cover 2 is Cover 6." },
-    { pic: "twoHigh", q: "Before the snap: what shell is this?", a: ["Single-high", "Two-high", "No safeties deep", "Can't tell"], c: 1,
-      why: "Two safeties sitting deep is a two-high shell. It usually points to Cover 2, Cover 4 or Cover 6, but watch for one safety rotating down at the snap." },
-    { pic: "oneHigh", q: "Before the snap: what shell is this?", a: ["Two-high", "No safeties deep", "Single-high", "Can't tell"], c: 2,
-      why: "One safety deep in the middle and the other walked down near the box. That's a single-high shell, which usually points to Cover 1 or Cover 3." },
-    { pic: "zeroPre", q: "Before the snap: no deep safety, safeties sitting over the slots and the box loaded. What should the quarterback expect?", a: ["A two-high zone", "Pressure, so the ball comes out fast", "Cover 4", "Time to hold the ball"], c: 1,
-      why: "No safety deep and the box loaded usually means Cover 0 pressure. There's no help behind anyone and no time to hold the ball. Get it to the open man now." },
-    { pic: "c3", q: "How many defenders are running to a deep zone?", a: ["Two", "Four", "One", "Three"], c: 3,
-      why: "Three: both corners and the free safety, each with a deep third. Counting the deep defenders is the fastest way to name a coverage: one deep is Cover 1, two is Cover 2, three is Cover 3, four is Cover 4." }
+    { pic: "c0", q: "Name the coverage.", a: ["Cover 1", "Cover 2", "Cover 3", "Cover 0"], c: 3,
+      why: "Nobody deep. The corners and safeties are in man, the safeties playing off over the #2 receivers, and extra defenders are coming. That's Cover 0. The ball has to come out fast." }
   ];
 
   var NS = "http://www.w3.org/2000/svg";
@@ -210,7 +168,7 @@ permalink: /coverage-quiz/
   }
 
   function finish() {
-    var msg = score >= 9 ? "You see it before the snap." : score >= 6 ? "Good eyes. A few more reps and these are automatic." : "Every QB starts here. Count the deep players first.";
+    var msg = score === 4 ? "You see it before the snap." : score >= 2 ? "Good eyes. A few more reps and these are automatic." : "Every QB starts here. Count the deep players first.";
     var box = document.createElement("div"); box.className = "quiz-result";
     box.innerHTML = '<p class="eyebrow">Your score</p><p class="quiz-score">' + score + " / " + Q.length + "</p><p class=\"lede\">" + msg + "</p>";
     var row = document.createElement("div"); row.className = "quiz-actions";
