@@ -9,6 +9,11 @@ title: Football IQ, taught on a whiteboard
 </section>
 
 <section class="post-list" aria-label="Articles">
+  <a class="card feature" href="{{ '/coverage-quiz/' | relative_url }}">
+    <p class="eyebrow">Free quiz &middot; 4 questions</p>
+    <h2>Can you name the coverage?</h2>
+    <p>Four whiteboards, four defenses. Name Cover 0, Cover 1, Cover 2 and Cover 3, then see why.</p>
+  </a>
   {% for post in site.posts %}
   <a class="card" href="{{ post.url | relative_url }}">
     <p class="eyebrow">{{ post.category | default: 'Football IQ' }} &middot; {{ post.date | date: '%b %-d, %Y' }}</p>
