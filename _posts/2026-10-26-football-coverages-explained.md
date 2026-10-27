@@ -65,7 +65,7 @@ Cover 1 is man coverage with one free safety in the deep middle. Each receiver h
 
 ## Cover 2: two deep halves
 
-In Cover 2 the two safeties split the deep part of the field in half. The corners sit shallow and take the flats. Linebackers and the nickel take the short and middle zones underneath, and in many Cover 2 calls the middle linebacker runs to the deep middle.
+In Cover 2 the two safeties split the deep part of the field in half. The corners sit shallow and take the flats. The Sam and Will linebackers take the curl zones, and the Mike linebacker runs to the deep middle, right between the two safeties.
 
 **The hole:** the space between the corner and the safety, deep along the sideline. Coaches call it the honey hole. The corner is sitting low, and the safety has a long way to run to get there.
 
@@ -81,9 +81,9 @@ In Cover 3 three defenders split the deep field into thirds: the free safety tak
 
 ## Cover 4 (Quarters): four deep
 
-In Cover 4 the two safeties and two corners each take a quarter of the deep field. That's four defenders protecting the deep part of the field, which makes long throws hard.
+On paper, Cover 4 has the two safeties and two corners each taking a quarter of the deep field. On the field it plays more like a match coverage. Each corner matches the #1 receiver, the one widest outside. Each safety reads the #2 receiver, the next one in. If #2 goes vertical, the safety takes him. If #2 stays short or blocks, the safety is free to help or come down on the run.
 
-**The hole:** underneath. With four deep, there are fewer players covering the short throws, and quick passes in front of the defense are open.
+**The hole:** play action. The safeties are reading #2 and the run, so a good run fake pulls them up. That opens the post behind them. Play-action post shots over the safeties' heads are how you hurt Quarters.
 
 **Before the snap:** two high safeties, often a little closer to the line than in Cover 2, with the corners playing deeper.
 
@@ -124,6 +124,6 @@ It means both safeties are deep before the snap. That usually points to Cover 2,
 
 ### How do I tell Cover 2 from Cover 4?
 
-Both show two deep safeties. In Cover 2 the corners are usually close to the line, ready to take the flats. In Cover 4 the corners are usually deeper, because each one has a deep quarter of the field. Confirm it after the snap: if the corners sink with the receivers, it's Quarters.
+Both show two deep safeties. In Cover 2 the corners are usually close to the line, ready to take the flats. In Cover 4 the corners are usually deeper, because each one is matching the #1 receiver deep. Confirm it after the snap: if the corners stay on top of #1 and the safeties jump the #2 receivers, it's Quarters.
 
 See it before the snap. Read & Rip teaches every one of these coverages one picture at a time, then asks you to call them on every snap in Season Mode. Try Read & Rip free in any browser or on Google Play.
