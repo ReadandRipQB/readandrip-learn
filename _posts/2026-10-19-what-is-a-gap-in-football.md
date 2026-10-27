@@ -61,7 +61,7 @@ On offense it's the mirror image. A run play is built to hit a specific gap, and
 
 When the offense puts a tight end on the line, the line gets wider and there's one more gap to defend. Bring in a second tight end and there's another. The defense now has to account for it, usually by moving a linebacker over or bringing a safety down closer to the line.
 
-That's why formation matters before the snap. The offense can create a gap the defense doesn't have a player for, and the run goes there.
+That's why formation matters before the snap. The offense can create a gap the defense doesn't have a player for, and the run goes there. And when a safety walks down to fill that gap, he's no longer deep, which changes the coverage behind him. Here's how that works: [football coverages explained](/football-coverages-explained/).
 
 ## What to look for before the snap
 
