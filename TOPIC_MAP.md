@@ -45,6 +45,14 @@ Search notes come from reading live Google results on 2026-10-22 (no paid keywor
 | 22 | Planned | F (pillar) | flag football quarterback tips | flag-football-qb-reads | Wide open: results are mostly spam pages of copied play lists. Real reads for 5-on-5 flag QBs. Check the league's rules before stating any rule (rusher distance, no-run zones vary). | 23, 24, 2 |
 | 23 | Planned | F | how to beat zone in flag football | beat-zone-flag-football | Open. Flag-specific zone beaters. | 22 |
 | 24 | Planned | F | how to beat man in flag football | beat-man-flag-football | Open. Rub/pick rules vary by league — say so. | 22 |
+| 25 | Planned | D | how to beat cover 2 | how-to-beat-cover-2 | Added 2026-11-01 (monthly SEO review). Top results are Madden guides (mut.gg, sportsgamersonline); Throw Deep is the only real-football page near the top. Write it for real football from the QB's eyes. | 4, 21 |
+| 26 | Planned | D | how to beat cover 3 | how-to-beat-cover-3 | Added 2026-11-01. Same as 25: Madden pages and spam own it. Real football, only beaters that are certain. | 3, 21 |
+| 27 | Planned | B | what do the coverage numbers mean | coverage-numbers-meaning | Added 2026-11-01. Why it's "Cover 2" or "Cover 3": the number is mostly how many play deep, and where that rule breaks (Cover 1, Cover 6). Short answer-first page. | 2, 10 |
+| 28 | Planned | C | 7v7 quarterback reads | 7v7-qb-reads | Added 2026-11-01. No-rush game, so the read is pure coverage. Check the event's rules before stating any (clock, field size vary). | 9, 22 |
+| 29 | Planned | F | flag football quarterback vs the rush | flag-qb-vs-the-rush | Added 2026-11-01. Rusher distance and rules vary by league — say so. | 22, 23 |
+| 30 | Planned | B | what is cover 6 in football | what-is-cover-6 | Added 2026-11-01. Middling: matchquarters and steelersdepot rank, then beginner sites (footballnationusa, viqtorysports). The pillar covers it in one section; give it its own player-level page. | 2, 4, 7 |
+| 31 | Planned | C | what is a hot route in football | hot-route-football | Added 2026-11-01. Glossaries and Madden/CFB game guides dominate. Real football: the blitz tell and where the ball goes. | 9, 12 |
+| 32 | Planned | B | press vs off coverage | press-vs-off-coverage | Added 2026-11-01. Fairly open for a beginner page; results are NFL analysis and coaching-technique pages. What the corner's depth tells the QB before the snap. | 2, 8, 13 |
 
 ## Rules for every article
 

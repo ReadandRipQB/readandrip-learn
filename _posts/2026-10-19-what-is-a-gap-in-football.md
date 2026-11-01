@@ -3,6 +3,7 @@ title: "What Is a Gap in Football? A, B, C and D Gaps Explained"
 description: "A gap is the space between two blockers. Learn where the A, B, C and D gaps are, why every defender owns one, and what to look for before the snap."
 category: Football basics
 author: Zach Trainor
+last_modified_at: 2026-11-01
 ---
 
 If you've been around a youth practice, you've heard a coach yell "fit your gap" a hundred times. Most kids nod. Plenty of them couldn't tell you where their gap actually is.
@@ -49,6 +50,23 @@ Count out from the center, one side at a time.
 
 Every side of the line has an A, B and C gap, so there are two A gaps, one on each side of the center. A side with a tight end also gets a D gap. Some programs number the holes instead of lettering the gaps. The idea is the same.
 
+## Gaps and technique numbers
+
+Defensive linemen use a second set of numbers, called techniques, to say exactly where they line up on a blocker. The gaps tell you the space. The technique tells you the spot. The most common system goes like this:
+
+| Technique | Where the defensive lineman lines up |
+| --- | --- |
+| **0** | Head up on the center |
+| **1** | In the A gap, between the center and the guard |
+| **2i** | On the guard's inside shoulder |
+| **2** | Head up on the guard |
+| **3** | On the guard's outside shoulder, in the B gap |
+| **4i** | On the tackle's inside shoulder |
+| **4** | Head up on the tackle |
+| **5** | On the tackle's outside shoulder, in the C gap |
+
+The quick way to remember it: a 1 technique lives in the A gap, a 3 in the B gap and a 5 in the C gap. Numbers past 5, out on the tight end, change from program to program, so learn the ones your coach uses.
+
 ## Why every defender owns a gap
 
 A run defense works when every gap has a defender in it. If two players fill the same gap, another gap is empty, and that empty gap is exactly where a good running back is going.
@@ -85,6 +103,10 @@ With five offensive linemen and no tight end, there are six: an A, B and C gap o
 ### Which gap is the A gap?
 
 The A gap is between the center and the guard, on either side. It's the shortest path to the quarterback, which is why pressure through the A gap gets home so fast.
+
+### What is a 3 technique?
+
+A defensive lineman lined up on the guard's outside shoulder, in the B gap. It's one of the most common spots for an interior lineman, and in most fronts he's the B-gap player.
 
 ### Who is responsible for each gap?
 

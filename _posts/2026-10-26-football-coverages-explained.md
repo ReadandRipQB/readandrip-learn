@@ -3,6 +3,7 @@ title: "Football Coverages Explained: Cover 0 to Cover 6"
 description: "Football coverages explained in plain words: what Cover 0, 1, 2, 3, 4 and 6 look like, and how to tell which one is coming before the snap."
 category: Coverages
 author: Zach Trainor
+last_modified_at: 2026-11-01
 ---
 
 Every pass play is a question, and the coverage is the defense's answer. This is football coverages explained the way I teach it on the board: what each coverage is, where its holes are, and how a player can tell which one is coming before the ball is snapped.
@@ -46,6 +47,8 @@ Before the snap, look past the linebackers to the two safeties. Where they stand
 - **Two safeties deep (2 high):** usually Cover 2, Cover 4 or Cover 6.
 
 That's the first sort. One warning that never goes away: good defenses disguise. A safety can show two high and spin down at the snap. Your first read tells you where to look, and the snap tells you if you were right.
+
+Want to test your eyes before reading on? The free [coverage quiz](/coverage-quiz/) shows four whiteboards. Count the safeties and name the coverage.
 
 ## Cover 0: everybody's covered, nobody's deep
 

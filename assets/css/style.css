@@ -120,3 +120,7 @@ h3 { font-size: 21px; margin: 28px 0 8px; }
   .quiz-opts { grid-template-columns: 1fr; }
   .quiz-q { font-size: 21px; }
 }
+
+/* Author box */
+.author-box { margin-top: 40px; padding: 20px 24px; border-left: 3px solid var(--green); background: var(--panel); border-radius: 0 10px 10px 0; }
+.author-box p { margin: 6px 0 0; }
