@@ -1,9 +1,9 @@
 ---
-title: "What Is a Gap in Football? A, B, C and D Gaps Explained"
-description: "A gap is the space between two blockers. Learn where the A, B, C and D gaps are, why every defender owns one, and what to look for before the snap."
+title: "What Is the A Gap? The A, B, C and D Gaps in Football"
+description: "The A gap is between the center and a guard. See the A, B, C and D gaps on one diagram, who fills each one and what to look for before the snap."
 category: Football basics
 author: Zach Trainor
-last_modified_at: 2026-11-01
+last_modified_at: 2026-11-03
 ---
 
 If you've been around a youth practice, you've heard a coach yell "fit your gap" a hundred times. Most kids nod. Plenty of them couldn't tell you where their gap actually is.
