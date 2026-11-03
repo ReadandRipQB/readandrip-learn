@@ -4,11 +4,16 @@ layout: default
 <article class="post">
   <p class="eyebrow">{{ page.category | default: 'Football IQ' }}</p>
   <h1>{{ page.title }}</h1>
-  <p class="meta">By {{ page.author | default: site.author }} &middot; {{ page.date | date: '%B %-d, %Y' }}</p>
+  <p class="meta">By {{ page.author | default: site.author }} &middot; {{ page.date | date: '%B %-d, %Y' }}{% if page.last_modified_at %} &middot; Updated {{ page.last_modified_at | date: '%B %-d, %Y' }}{% endif %}</p>
 
   <div class="post-body">
     {{ content }}
   </div>
+
+  <aside class="author-box" aria-label="About the author">
+    <p class="eyebrow">About the author</p>
+    <p><strong>Zach Trainor</strong> was an All-State quarterback at Walled Lake Western in Michigan, then played quarterback at the D1, D2 and D3 levels. He learned the defensive side of the game from former NFL defensive back Steve Wilson, and he built the Read &amp; Rip app to teach players to read a defense before the snap. Every diagram on this site is drawn the way he draws it on the whiteboard.</p>
+  </aside>
 
   <aside class="cta">
     <h2>Train this until it's automatic</h2>
