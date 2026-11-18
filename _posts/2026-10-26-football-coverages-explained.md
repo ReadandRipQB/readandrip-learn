@@ -74,6 +74,8 @@ In Cover 2 the two safeties split the deep part of the field in half. The corner
 
 **Before the snap:** two high safeties, and corners close to the line with their eyes inside.
 
+For the full breakdown with the whiteboard, see [What is Cover 2?]({{ '/what-is-cover-2/' | relative_url }}).
+
 ## Cover 3: three deep thirds
 
 In Cover 3 three defenders split the deep field into thirds: the free safety takes the middle and each corner takes a sideline third. Four players cover underneath. On my board, the strong safety and the nickel take curl to flat on the outside, and the two linebackers take the hook and curl zones in the middle.
