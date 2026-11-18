@@ -69,9 +69,9 @@ The trade is simple: every defender is on an island. If a receiver beats his man
 
 ## Where Cover 1 is weak
 
-- **Routes that win one-on-one.** A slant, a quick out or a comeback against a defender who can't stay with the receiver. Nobody else is there to help.
-- **Crossing routes.** A man defender has to chase his receiver all the way across the field. If the robber isn't sitting there, the middle can open up.
-- **Two deep threats on one side.** One free safety can only help on one of them.
+- **Rub and pick concepts.** Receivers cross close to each other so a man defender has to fight through traffic to stay with his guy. One step behind is all a receiver needs.
+- **Mesh.** Two receivers cross each other underneath, going opposite ways. Every man defender has to chase his receiver across the field and through the crowd in the middle.
+- **The running back on a linebacker.** In Cover 1 a linebacker usually has the back. Get the running back out into a route and you've got a back matched up on a linebacker in space.
 
 ## What to look for before the snap
 
