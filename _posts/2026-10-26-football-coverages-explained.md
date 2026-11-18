@@ -64,6 +64,8 @@ Cover 1 is man coverage with one free safety in the deep middle. Each receiver h
 
 **The hole:** the safety can only be in one place. A receiver who beats his man on the side away from the safety has room.
 
+For the full breakdown with the whiteboard, see [What is Cover 1?]({{ '/what-is-cover-1/' | relative_url }}).
+
 **How it differs from Cover 3:** both show one safety deep. In Cover 1, defenders follow receivers. In Cover 3, they drop to spots on the field.
 
 ## Cover 2: two deep halves
