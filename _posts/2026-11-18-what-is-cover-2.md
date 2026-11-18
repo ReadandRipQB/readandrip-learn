@@ -81,9 +81,10 @@ The trade is up top. Two safeties have to cover the whole deep field, and each o
 
 ## Where the holes are
 
-- **The honey hole.** The space deep along the sideline, behind the corner and in front of the safety. The corner is sitting low in the flat, and the safety has a long way to run to get there. That's the spot on my board with the circle around it.
-- **Between the safeties.** Two safeties split the field, so the deep middle is the seam between them. That's why the Mike runs there. If the Mike doesn't get deep enough, it opens.
-- **Between the curl and the flat.** Four underneath defenders still leave windows, especially when a corner jumps a short route.
+Cover 2 has two holes:
+
+- **The middle of the field.** The two safeties split the field in half, so the middle is the space between them. The Mike runs there to cover it, and he has a long way to go.
+- **The honey hole.** The space between the safety and the corner, deep along the sideline. The corner is sitting low in the flat, and the safety has a long way to run to get there. That's the spot on my board with the circle around it.
 
 ## What to look for before the snap
 
